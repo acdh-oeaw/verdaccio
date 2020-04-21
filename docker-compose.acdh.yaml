@@ -16,6 +16,8 @@ services:
       - traefik.frontend.rule=Host:npm-registry.sisyphos.arz.oeaw.ac.at
       - traefik.docker.network=web
       - traefik.port=4873
+      - ID=17059
+      - BackendConnection=none
     networks:
       - web
 
